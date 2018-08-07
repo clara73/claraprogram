@@ -65,5 +65,47 @@ Also, % symbol in for loop corresponding to how many columns you have in the sel
 
 ## Analysis 
 
-### Descriptive Graphs  
+The guideline is based on software Minitab. 
+
+### Descriptive Statistics and Graphs  
+
+STEP 1 : Select Stat &gt; Basic Statistics &gt; Display Descriptive Statics. Click text box under "Variable", then double click Runtime to add it as a variable. 
+
+![](.gitbook/assets/capture1.PNG)
+
+STEP 2: Click button "Statistics", uncheck "N nonmissing" and "N missing". Click OK. 
+
+![](.gitbook/assets/capture2.PNG)
+
+STEP 3: Click button "Graphs", check "Histogram of data, with normal curve" and "Boxplot of data". Then click OK. 
+
+![](.gitbook/assets/capture3.PNG)
+
+STEP 4: Click OK to generate descriptive statistics and graphs. 
+
+![](.gitbook/assets/capture1.PNG)
+
+### Main Effects Plots
+
+Click Stat &gt; ANOVA &gt; Main Effects Plot. Add "Runtime" as Response, and the others as Factors. And then click OK. 
+
+![](.gitbook/assets/capture4.PNG)
+
+{% hint style="info" %}
+ After implementing main effects plots, it's necessary to use ANOVA analysis to make sure the main effect is statistically significant, rather than caused by random chance. 
+{% endhint %}
+
+## Conclusion 
+
+As you can see, load file into the program and run test are modularized and can run automatically. However, the analysis part still needs some manual work. The software Minitab that I used for analytics is not free, so I would recommend these Python packages for further analysis. 
+
+Pandas - [http://pandas.pydata.org/](http://pandas.pydata.org/)
+
+Statsmodels- [http://www.statsmodels.org/stable/index.html](http://www.statsmodels.org/stable/index.html)
+
+Seaborn - [http://seaborn.pydata.org/index.html](http://seaborn.pydata.org/index.html)
+
+Matplotlib - [https://matplotlib.org/index.html](https://matplotlib.org/index.html)
+
+Please feel free to fork this repository, change it for better use, build on it or use any part of this program!!  I would love to give my special thanks to my mentor Justin Dowdy for his help to put this project together! Also huge thanks to everyone who have helped me during my internship!  
 
