@@ -1,9 +1,3 @@
----
-description: >-
-  User guideline for Clara's program - empirical assessment of database
-  configuration parameters under a given workload.
----
-
 # README.md
 
 ## What Need to Be Done Before Start?
